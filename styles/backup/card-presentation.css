@@ -1,0 +1,83 @@
+:root {
+    --clr-soft-white: rgb(226, 219, 205);
+    --clr-soft-black: rgb(49, 49, 49);
+}
+
+body {
+    background-color: rgb(37, 37, 37);
+    margin: 0;
+}
+
+.container {
+    display: inline-block;
+}
+
+.card-container {
+    margin: 10rem;
+}
+
+.card {
+    perspective: 150rem;
+    height: 8rem;
+    width: 8rem;
+    position: relative;
+}
+
+.card-side {
+    height: 8rem;
+    transition: all 0.8s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: auto;
+    width: 8rem;
+    backface-visibility: hidden;
+    border-radius: 3px;
+    overflow: hidden;
+    /* box-shadow: 0.1rem 0.1rem 0.2rem 0.2rem 5rem rgb(247, 0, 0); */
+}
+
+.card-side--front {}
+
+.card-side--back {
+    transform: rotateY(180deg);
+}
+
+.card:hover .card-side--front {
+    transform: rotateY(-180deg);
+}
+
+.card:hover .card-side--back {
+    transform: rotateY(0deg);
+}
+
+.card-cont {
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card__cta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+}
+
+.card__cta p {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.soft-black {
+    color: var(--clr-soft-black);
+}
+
+.bg-soft-white {
+    background-color: var(--clr-soft-white)
+}
+
+.text-center {
+    text-align: center;
+}

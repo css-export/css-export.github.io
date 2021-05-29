@@ -1,0 +1,16 @@
+.text-on-color-light {
+    color: white;
+    font-size: small;
+    justify-items: center;
+}
+
+.text-position-0 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.text-on-color-dark {
+    color: black;
+    font-size: small;
+}

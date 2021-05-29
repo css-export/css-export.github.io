@@ -1,0 +1,85 @@
+#image1 {
+    position: absolute;
+    z-index: -1;
+}
+
+#image2 {
+    position: absolute;
+    top: 0;
+    left: 600px;
+    z-index: -1;
+}
+
+#image3 {
+    position: absolute;
+    top: 600px;
+    left: 0;
+    z-index: -1;
+}
+
+#image4 {
+    position: absolute;
+    top: 600px;
+    left: 600px;
+    z-index: -1;
+}
+
+#image5 {
+    position: absolute;
+    top: 1200px;
+    left: 0;
+    z-index: -1;
+}
+
+#image6 {
+    position: absolute;
+    top: 1200px;
+    left: 600px;
+    z-index: -1;
+}
+
+#image7 {
+    position: absolute;
+    top: 1800px;
+    left: 0;
+    z-index: -1;
+}
+
+#image8 {
+    position: absolute;
+    top: 1800px;
+    left: 600px;
+    z-index: -1;
+}
+
+#image9 {
+    position: absolute;
+    top: 2400px;
+    left: 0;
+    z-index: -1;
+}
+
+#image10 {
+    position: absolute;
+    top: 2400px;
+    left: 600px;
+    z-index: -1;
+}
+
+#box {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.container {
+    display: inline-block;
+}
+
+.m-10rem {
+    margin: 10rem;
+}
+
+.ml-10rem {
+    margin-left: 10rem;
+}
