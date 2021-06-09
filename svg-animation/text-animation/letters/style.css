@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.space {
+    display: inline-block;
+    width: 2rem;
+}
+
+.stroke-primary {
+    fill: none;
+    stroke-width: 1;
+    stroke: #000000;
+}
+
+.stroke-primary-2 {
+    fill: none;
+    stroke-width: 2;
+    stroke: #000000;
+}
+
+
+/*
+.container {
+    border: #000000 solid;
+    padding-left: 10%;
+}
+
+.word {
+    border: #000000 solid;
+} 
+
+svg {
+    animation: fill 1.5s ease forwards 2.5s;
+} */
+
+#A {
+    stroke-dasharray: 494;
+    stroke-dashoffset: 494;
+    animation: line-anim 2.2s ease forwards;
+}
+
+#B {
+    stroke-dasharray: 602;
+    stroke-dashoffset: 602;
+    animation: line-anim 2.2s ease forwards;
+}
+
+#C {
+    stroke-dasharray: 484;
+    stroke-dashoffset: 484;
+    animation: line-anim 2.2s ease forwards;
+}
+
+#C2 {
+    stroke-dasharray: 572;
+    stroke-dashoffset: 572;
+    animation: line-anim 2.2s ease forwards;
+}
+
+#D {
+    stroke-dasharray: 543;
+    stroke-dashoffset: 543;
+    animation: line-anim 2.2s ease forwards;
+}
+
+#E {
+    stroke-dasharray: 529;
+    stroke-dashoffset: 529;
+    animation: line-anim 2.2s ease forwards;
+}
+
+#F {
+    stroke-dasharray: 422;
+    stroke-dashoffset: 422;
+    animation: line-anim 2.2s ease forwards;
+}
+
+#G {
+    stroke-dasharray: 572;
+    stroke-dashoffset: 572;
+    animation: line-anim 2.2s ease forwards;
+}
+
+#G2 {
+    stroke-dasharray: 695;
+    stroke-dashoffset: 695;
+    animation: line-anim 2.2s ease forwards;
+}
+
+#H {
+    stroke-dasharray: 549;
+    stroke-dashoffset: 549;
+    animation: line-anim 2.2s ease forwards;
+}
+
+#I {
+    stroke-dasharray: 236;
+    stroke-dashoffset: 236;
+    animation: line-anim 2.2s ease forwards;
+}
+
+#I2 {
+    stroke-dasharray: 287;
+    stroke-dashoffset: 287;
+    animation: line-anim 2.2s ease forwards;
+}
+
+#J {
+    stroke-dasharray: 338;
+    stroke-dashoffset: 338;
+    animation: line-anim 2.2s ease forwards;
+}
+
+#K {
+    stroke-dasharray: 530;
+    stroke-dashoffset: 530;
+    animation: line-anim 2.2s ease forwards;
+}
+
+#L {
+    stroke-dasharray: 333;
+    stroke-dashoffset: 333;
+    animation: line-anim 2.2s ease forwards;
+}
+
+#M {
+    stroke-dasharray: 796;
+    stroke-dashoffset: 796;
+    animation: line-anim 2.2s ease forwards;
+}
+
+#N {
+    stroke-dasharray: 606;
+    stroke-dashoffset: 606;
+    animation: line-anim 2.2s ease forwards;
+}
+
+#O {
+    stroke-dasharray: 527;
+    stroke-dashoffset: 527;
+    animation: line-anim 2.2s ease forwards;
+}
+
+#O2 {
+    stroke-dasharray: 631;
+    stroke-dashoffset: 631;
+    animation: line-anim 2.2s ease forwards;
+}
+
+#P {
+    stroke-dasharray: 483;
+    stroke-dashoffset: 483;
+    animation: line-anim 2.2s ease forwards;
+}
+
+#R {
+    stroke-dasharray: 564;
+    stroke-dashoffset: 564;
+    animation: line-anim 2.2s ease forwards;
+}
+
+#S {
+    stroke-dasharray: 537;
+    stroke-dashoffset: 537;
+    animation: line-anim 2.2s ease forwards;
+}
+
+#S2 {
+    stroke-dasharray: 624;
+    stroke-dashoffset: 624;
+    animation: line-anim 2.2s ease forwards;
+}
+
+#T {
+    stroke-dasharray: 367;
+    stroke-dashoffset: 367;
+    animation: line-anim 2.2s ease forwards;
+}
+
+#U {
+    stroke-dasharray: 498;
+    stroke-dashoffset: 498;
+    animation: line-anim 2.2s ease forwards;
+}
+
+#U2 {
+    stroke-dasharray: 601;
+    stroke-dashoffset: 601;
+    animation: line-anim 2.2s ease forwards;
+}
+
+#V {
+    stroke-dasharray: 441;
+    stroke-dashoffset: 441;
+    animation: line-anim 2.2s ease forwards;
+}
+
+#Y {
+    stroke-dasharray: 387;
+    stroke-dashoffset: 387;
+    animation: line-anim 2.2s ease forwards;
+}
+
+#Z {
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    animation: line-anim 2.2s ease forwards;
+}
+
+@keyframes line-anim {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fill {
+    from {
+        fill: transparent;
+    }
+    to {
+        fill: #6715eb;
+    }
+}
+
+@keyframes fill-0 {
+    to {
+        fill: none;
+    }
+}
